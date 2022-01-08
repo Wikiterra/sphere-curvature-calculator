@@ -64,6 +64,6 @@ $$cos(\alpha)=\frac{R-h}{R} \Rightarrow h=R \cdot (1-cos(\alpha))$$
 	
 
 ## Add formules to GitHub
-![img](https://latex.codecogs.com/svg.image?x^{2})
-![img](http://www.sciweavers.org/tex2img.php?eq=sin^2(\alpha)+cos^2(\alpha)=1&bc=White&fc=Black&im=jpg&fs=12)
-<img src="https://render.githubusercontent.com/render/math?math=sin^2(\alpha)+cos^2(\alpha)=1">
+![img](https://latex.codecogs.com/svg.image?sin^2(\alpha)&plus;cos^2(\alpha)=1)
+![img](http://www.sciweavers.org/tex2img.php?eq=sin^2(\alpha)&plus;cos^2(\alpha)=1&bc=White&fc=Black&im=jpg&fs=12)
+<img src="https://render.githubusercontent.com/render/math?math=sin^2(\alpha)&plus;cos^2(\alpha)=1">
