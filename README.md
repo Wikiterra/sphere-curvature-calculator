@@ -19,8 +19,7 @@ Representation of the Earth with distances and heights.
 <img src="https://raw.githubusercontent.com/Curiosity432/Earth-curvature-calculator/main/Trigonometry-sphere.png" width=50% height=50%>
 
 ### 1. Pitagoras Theorem
-- ![img](http://www.sciweavers.org/tex2img.php?eq=a²+b²=c²\Rightarrowc=\sqrt{a²+b²}&bc=White&fc=Black&im=jpg&fs=12)
-- [Desmos graph](https://www.desmos.com/calculator/cbdgduxedl)
+[Desmos graph](https://www.desmos.com/calculator/cbdgduxedl)
 
 ## 2. Perimeter of a circle
 
