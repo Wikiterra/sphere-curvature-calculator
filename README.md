@@ -37,7 +37,7 @@ print("The distance to the geometrical horizon is %.3f Km and the hidden height 
 	- α: angle variation
 	- d: distance AB
 	- h: observer's hidden DB height
-	- R: radius of the spherical Earth (R=6371 Km=3959 mi)
+	- R: radius of the spherical Earth (R=6371 Km)
 - Points:
 	- A: observer on the edge of the sphere
 	- B: vertical prolongation of the object at D
