@@ -1,11 +1,12 @@
 # Earth curvature calculator
-Calculate the curvature of the Earth.
+To calculate the curvature of the Earth, there are various methods
 
-Representation of the Earth with distances and heights.
-![[Earth-curve-calc]](Earth-curve-calc.png)
+## 1. Pitagoras Theorem
+[Desmos graph](https://www.desmos.com/calculator/cbdgduxedl)
+## 2. Perimeter of a circle
+## 3. Using trigonometry
 
-
-## Schematic of the spherical earth model
+# Spherical Earth model scheme
 - Data:
 	- α: angle variation
 	- d: distance AB
@@ -18,10 +19,6 @@ Representation of the Earth with distances and heights.
 	- D: base of the hidden object
 <img src="https://raw.githubusercontent.com/Curiosity432/Earth-curvature-calculator/main/Trigonometry-sphere.png" width=50% height=50%>
 
-## 1. Pitagoras Theorem
-[Desmos graph](https://www.desmos.com/calculator/cbdgduxedl)
-
-## 2. Perimeter of a circle
-
-## 3. Using trigonometry
+Representation of the Earth with distances and heights.
+![[Earth-curve-calc]](Earth-curve-calc.png)
 
