@@ -48,7 +48,7 @@ $$ h = 6371 \cdot \left(1 - cos \left(\frac{113}{6371} \right)\right) = 1.002 Km
 
 ## 3. Using trigonometry
 - Formules
-<img src="https://render.githubusercontent.com/render/math?math=sen^2(α)+cos^2(α)=1">
+<img src="https://render.githubusercontent.com/render/math?math=sen^2(\alpha)+cos^2(α)=1">
 <img src="https://render.githubusercontent.com/render/math?math=cos(α)=\frac{R}{R+h} \approx \frac{R-h}{R}">
 <img src="https://render.githubusercontent.com/render/math?math=sin(α)=\frac{d}{R+h}">
 <img src="https://render.githubusercontent.com/render/math?math=tg(α)=\frac{d}{R}">
@@ -62,3 +62,9 @@ $$cos(α)=\frac{R}{R+h} \Rightarrow h=R \cdot (sec(α)-1)$$
 $$cos(\alpha)=\frac{R-h}{R} \Rightarrow h=R \cdot (1-cos(\alpha))$$
 	Substituting for d=113 Km:
 	$$h=6371 \cdot \left(1 - cos\left(arctg \left(\frac{113}{6371}\right)\right)\right)=1.001 Km$$
+	
+	
+<img src="https://render.githubusercontent.com/render/math?math=sen^2(α)+cos^2(α)=1">
+![img](http://www.sciweavers.org/tex2img.php?eq=1%2Bsin%28mc%5E2%29&bc=White&fc=Black&im=jpg&fs=12&ff=arev&edit=)
+![img](http://latex.codecogs.com/svg.latex?%5Cfrac%7B%5Csigma%7D%7B%5Cmu%7D)
+
