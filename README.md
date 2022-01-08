@@ -7,19 +7,20 @@ To calculate the curvature of the Earth, there are various methods
 
 from numpy import*
 
-# Datos: R, h_0, h_1, d_0, d_1
+# Data: R, h_0, h_1, d_0, d_1
 ## R: Earth radius (6371 Km)
-## h_0: eye view (in Km)
-## d_0: object distance (in Km)
-## h_1: hidden height (in Km)
+## h_0: eye height at sea level (in Km)
+## d_0: distance in straight line from the observer to the object (in Km)
+## h_1: hidden height by curvature (in Km)
 ## d_1: distance to the geometrical horizon (in Km)
 ## d_2 = d_0 - d1; d_2: distancia from the geometrical horizon to the object (in Km)
+## h_R: height along the distance. Example: if the observer and object are separated at the shore of a lake at 200 m of altitude, the height is the same along all the distance and is not at sea level. (Default h_R = 0, sea level)
 
-h_R = 0 ## Eye view and object in an elevated area with same altitude. Example observer and object at the shore of a lake separated 45 Km at 200 m of altitude, the height is the same along all the distance and is not at sea level. (Default h_R = 0, sea level)
-R = 6371 + n  # Earth radius in Km
+h_R = 0   # user data
+R = 6371 + h_R 
 
-h_0 = 0.001  # Eye height (in Km)
-d_0 = 30 # Total distance (in Km)
+h_0 = 0.001 # user data
+d_0 = 30 # user data
 
 # By Pitagoras: (R+h_0)^2=d_1^2+R^2 and (R+h_1)^2=d_2^2+R^2
 d_1 = sqrt(h_0**2+(2*R*h_0))
