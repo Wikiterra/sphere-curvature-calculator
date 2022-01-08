@@ -16,9 +16,6 @@ Representation of the Earth with distances and heights.
 	- B: vertical prolongation of the object at D
 	- C: center of the circle
 	- D: base of the hidden object
-
-![](Trigonometry-sphere.png)
-
 <img src="https://raw.githubusercontent.com/Curiosity432/Earth-curvature-calculator/main/Trigonometry-sphere.png" width=50% height=50%>
 
 ### 1. Pitagoras Theorem
