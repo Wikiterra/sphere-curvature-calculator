@@ -19,7 +19,7 @@ Representation of the Earth with distances and heights.
 <img src="https://raw.githubusercontent.com/Curiosity432/Earth-curvature-calculator/main/Trigonometry-sphere.png" width=50% height=50%>
 
 ### 1. Pitagoras Theorem
-- Teorema de Pitágoras: ![img](http://www.sciweavers.org/tex2img.php?eq=a²+b²=c² \Rightarrow c=\sqrt{a²+b²}&bc=White&fc=Black&im=jpg&fs=12)
+- Teorema de Pitágoras: ![img](http://www.sciweavers.org/tex2img.php?eq=a²+b²=c²\Rightarrowc=\sqrt{a²+b²}&bc=White&fc=Black&im=jpg&fs=12)
 - Para este caso a=d, b=R, c=R+h
   ![img](http://www.sciweavers.org/tex2img.php?eq=d^2+R^2=(R+h)^2 \Rightarrow d=\sqrt{(R+h)²-R²}=\sqrt{2Rh+h^2}&bc=White&fc=Black&im=jpg&fs=12)
 	- Para h=1 Km:
