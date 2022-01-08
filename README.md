@@ -25,11 +25,3 @@ Representation of the Earth with distances and heights.
 
 ## 3. Using trigonometry
 
-	
----	
-
-## Add formules to GitHub
-![img](https://latex.codecogs.com/svg.image?sin^2(\alpha)&plus;cos^2(\alpha)=1)
-![img](http://www.sciweavers.org/tex2img.php?eq=sin^2(\alpha)&plus;cos^2(\alpha)=1&bc=White&fc=Black&im=jpg&fs=12)
-![img](https://render.githubusercontent.com/render/math?math=sin^2(\alpha)cos^2(\alpha)=1)
-
