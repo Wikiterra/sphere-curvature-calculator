@@ -65,6 +65,8 @@ $$cos(\alpha)=\frac{R-h}{R} \Rightarrow h=R \cdot (1-cos(\alpha))$$
 	
 	
 <img src="https://render.githubusercontent.com/render/math?math=sen^2(α)+cos^2(α)=1">
+
 ![img](http://www.sciweavers.org/tex2img.php?eq=1%2Bsin%28mc%5E2%29&bc=White&fc=Black&im=jpg&fs=12&ff=arev&edit=)
+
 ![img](http://latex.codecogs.com/svg.latex?%5Cfrac%7B%5Csigma%7D%7B%5Cmu%7D)
 
