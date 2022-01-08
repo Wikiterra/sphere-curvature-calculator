@@ -47,5 +47,5 @@ print("The distance to the geometrical horizon is %.3f Km and the hidden height 
 <img src="https://raw.githubusercontent.com/Curiosity432/Earth-curvature-calculator/main/Trigonometry-sphere.png" width=50% height=50%>
 
 Representation of a sphere (R=6371 Km) with distances and heights.
-![[Sphere-curve-calc]](Earth-curve-calc.png)
+![[Sphere-curve-calc]](Sphere-curve-calc.png)
 
