@@ -2,7 +2,7 @@
 To calculate the curvature of the Earth, there are various methods
 
 ## 1. Pitagoras Theorem
-´´´python
+```python
 # Pitágoras con dos alturas
 
 from numpy import*
@@ -25,7 +25,7 @@ d_1 = sqrt(h_0**2+(2*R*h_0))
 h_1 = sqrt((d_0-d_1)**2+R**2)-R
 
 print("La distancia al corte por curvatura es de %.3f Km y la altura ocultada es %.3f Km" % (d_1, h_1))
-´´´
+```
 
 [Desmos graph](https://www.desmos.com/calculator/cbdgduxedl)
 ## 2. Perimeter of a circle
