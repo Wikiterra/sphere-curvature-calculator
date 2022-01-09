@@ -3,7 +3,7 @@ To calculate the curvature of the Earth, there are various methods
 
 ## 1. Pitagoras Theorem
 ```python
-# Pitagoras with two heights
+# Pitagoras with two heights, input (d0, h0, R) & output (h1)
 
 from numpy import*
 
@@ -16,11 +16,11 @@ from numpy import*
 ## d_2 = d_0 - d1; d_2: distancia from the geometrical horizon to the object (in Km)
 ## h_R: height along the distance. Example: if the observer and object are separated at the shore of a lake at 200 m of altitude, the height is the same along all the distance and is not at sea level. (Default h_R = 0, sea level)
 
-h_R = 0   # user data
-R = 6371 + h_R 
-
-h_0 = 0.001 # user data
-d_0 = 30 # user data
+# User data
+h_R = 0
+R = 6371 + h_R
+h_0 = 0.001
+d_0 = 30
 
 # By Pitagoras: (R+h_0)^2=d_1^2+R^2 and (R+h_1)^2=d_2^2+R^2
 d_1 = sqrt(h_0**2+(2*R*h_0))
