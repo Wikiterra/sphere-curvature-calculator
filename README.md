@@ -8,7 +8,7 @@ To calculate the curvature of the Earth, there are various methods
 from numpy import*
 
 # Data: R, h_0, h_1, d_0, d_1
-## R: Earth radius (6371 Km)
+## R: radius ("Earth radius": 6371 Km)
 ## h_0: eye height at sea level (in Km)
 ## d_0: distance in straight line from the observer to the object (in Km)
 ## h_1: hidden height by curvature (in Km)
@@ -33,17 +33,18 @@ print("The distance to the geometrical horizon is %.3f Km and the hidden height 
 ## 2. Perimeter of a circle
 ## 3. Using trigonometry
 
-# Spherical Earth model scheme
+# Spheric scheme
 - Data:
 	- α: angle variation
 	- d: distance AB
 	- h: observer's hidden DB height
 	- R: radius of the spherical Earth (R=6371 Km)
 - Points:
-	- A: observer on the edge of the sphere
-	- B: vertical prolongation of the object at D
-	- C: center of the circle
-	- D: base of the hidden object
+	- A0: base of the observer
+	- A1: height of observer
+	- B0: base of hidden object
+	- B1: top of hidden object 
+	- C: center of the circle / sphere
 ![](Earth-calc.png)
 ![](Earth-calc-pythagoras.png)
 
