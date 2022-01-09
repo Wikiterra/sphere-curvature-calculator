@@ -48,4 +48,6 @@ print("The distance to the geometrical horizon is %.3f Km and the hidden height 
 
 Representation of a sphere (R=6371 Km) with distances and heights.
 ![[Sphere-curve-calc]](Sphere-curve-calc.png)
+![](Earth-calc.png)
+![](Earth-calc-pythagoras.png)
 
