@@ -44,10 +44,10 @@ print("The distance to the geometrical horizon is %.3f Km and the hidden height 
 	- B: vertical prolongation of the object at D
 	- C: center of the circle
 	- D: base of the hidden object
-<img src="https://raw.githubusercontent.com/Curiosity432/Earth-curvature-calculator/main/Trigonometry-sphere.png" width=50% height=50%>
+![](Earth-calc.png)
+![](Earth-calc-pythagoras.png)
 
 Representation of a sphere (R=6371 Km) with distances and heights.
 ![[Sphere-curve-calc]](Sphere-curve-calc.png)
-![](Earth-calc.png)
-![](Earth-calc-pythagoras.png)
+
 
