@@ -54,7 +54,7 @@ h = R*(1-cos(alfa))
 print("An object at a distance of %.2f km above sea level is hidden %.2f km." % (d, h))
 ```
 
-## 3. Using trigonometry
+## 3. Trigonometry
 ```python
 # Trigonometry at sea level
 
