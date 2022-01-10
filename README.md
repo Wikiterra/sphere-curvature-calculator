@@ -31,7 +31,51 @@ print("The distance to the geometrical horizon is %.3f Km and the hidden height 
 
 [Desmos graph](https://www.desmos.com/calculator/cbdgduxedl)
 ## 2. Perimeter of a circle
+```python
+# Ángulo de curvatura de un perímetro dado, a nivel del mar
+
+from numpy import*
+
+# Unidades en Km
+## Datos fijos
+R = 6371
+C = 2*pi*R # C==12742*pi=40030.14 Km
+## Datos del observador
+d = 113
+
+# Ángulo (en grados) por unidad, python usa por defecto radianes
+alfa_km = 2*pi/C
+
+# Ángulo para distancia (d) dada:
+alfa = alfa_km*d
+
+# Cálculo de la altura h:
+h = R*(1-cos(alfa))
+
+print("Un objeto a una distancia de %.2f Km sobre el nivel del mar, se oculta %.2f Km." % (d, h))
+```
+
 ## 3. Using trigonometry
+```python
+# Trigonometry at sea level
+
+from numpy import*
+
+# Data: R, h
+# Earth radius (R=6371 Km)
+R = 6371
+# Target hidden height
+h = array([1, 2, 3, 4, 5, 6, 7, 8, 9])
+
+# Target distance : d
+
+# By basic trigonometry
+d1 = R*arccos(R/(R+h))
+
+# Print the result
+for i in range(len(h)):
+  print("the hidden height is %d Km for adistance of %.2f Km" % ((i+1, d1[i])
+```
 
 # Spheric scheme
 - Data:
