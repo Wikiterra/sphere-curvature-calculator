@@ -1,5 +1,5 @@
 # Sphere curvature calculator
-To calculate the curvature of the Earth, there are various methods
+To calculate the curvature of the "spherical" Earth, there are various methods
 
 ## 1. Pitagoras Theorem
 ```python
