@@ -3,7 +3,7 @@ To calculate the curvature of the Earth, there are various methods
 
 ## 1. Pitagoras Theorem
 ```python
-# Pitagoras with two heights, input (d0, h0, R) & output (h1)
+# Pythagoras with two heights, input (d0, h0, R) & output (h1)
 
 from numpy import*
 
@@ -22,7 +22,7 @@ R = 6371 + h_R
 h_0 = 0.001
 d_0 = 30
 
-# By Pitagoras: (R+h_0)^2=d_1^2+R^2 and (R+h_1)^2=d_2^2+R^2
+# By Pythagoras: (R+h_0)^2=d_1^2+R^2 and (R+h_1)^2=d_2^2+R^2
 d_1 = sqrt(h_0**2+(2*R*h_0))
 h_1 = sqrt((d_0-d_1)**2+R**2)-R
 
@@ -32,27 +32,26 @@ print("The distance to the geometrical horizon is %.3f Km and the hidden height 
 [Desmos graph](https://www.desmos.com/calculator/cbdgduxedl)
 ## 2. Perimeter of a circle
 ```python
-# Ángulo de curvatura de un perímetro dado, a nivel del mar
+# Angle of curvature of a given perimeter, at sea level.
 
 from numpy import*
 
-# Unidades en Km
-## Datos fijos
+# Units in Km
+## Input data
 R = 6371
 C = 2*pi*R # C==12742*pi=40030.14 Km
-## Datos del observador
-d = 113
+d = 113 # From observer in Km
 
-# Ángulo (en grados) por unidad, python usa por defecto radianes
+# Angle (in degrees) per unit, python defaults to radians
 alfa_km = 2*pi/C
 
-# Ángulo para distancia (d) dada:
+# Angle for given distance (d):
 alfa = alfa_km*d
 
-# Cálculo de la altura h:
+# Calculus of the height h:
 h = R*(1-cos(alfa))
 
-print("Un objeto a una distancia de %.2f Km sobre el nivel del mar, se oculta %.2f Km." % (d, h))
+print("An object at a distance of %.2f km above sea level is hidden %.2f km." % (d, h))
 ```
 
 ## 3. Using trigonometry
@@ -74,7 +73,7 @@ d1 = R*arccos(R/(R+h))
 
 # Print the result
 for i in range(len(h)):
-  print("the hidden height is %d Km for adistance of %.2f Km" % ((i+1, d1[i])
+  print("The hidden height is %d Km for a distance of %.2f Km" % ((i+1, d1[i])
 ```
 
 # Spheric scheme
