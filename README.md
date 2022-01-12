@@ -34,7 +34,7 @@ from numpy import*
 ## h1: hidden height by curvature (in Km)
 ## d1: distance to the geometrical horizon (in Km)
 ## d2 = d_0 - d1; d2: distancia from the geometrical horizon to the object (in Km)
-## h_R: height along the distance. Example: if the observer and object are separated at the shore of a lake at 200 m of altitude, the height is the same along all the distance and is not at sea level. (Default h_R = 0, sea level)
+## hR: height along the distance. Example: if the observer and object are separated at the shore of a lake at 200 m of altitude, the height is the same along all the distance and is not at sea level. (Default h_R = 0, sea level)
 
 # User data
 hR = 0
