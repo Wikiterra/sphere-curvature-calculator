@@ -89,6 +89,6 @@ for i in range(len(h)):
 ```
 
 ## Online calcultors
-- [Advanced+Earth+Curvature+Calculator](http://walter.bislins.ch/bloge/index.asp?page=Advanced+Earth+Curvature+Calculator)
-- [Eart curve calculator](https://dizzib.github.io/earth/curve-calc/?d0=140&h0=0.2&unit=metric)
-- [Make panorama](https://www.udeuschle.de/panoramas/makepanoramas_en.htm)
+- [Advanced Earth Curvature Calculator](http://walter.bislins.ch/bloge/index.asp?page=Advanced+Earth+Curvature+Calculator)
+- [Earth Curve Calculator](https://dizzib.github.io/earth/curve-calc/?d0=140&h0=0.2&unit=metric)
+- [Make Panorama](https://www.udeuschle.de/panoramas/makepanoramas_en.htm)
