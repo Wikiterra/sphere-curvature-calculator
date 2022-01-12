@@ -88,7 +88,7 @@ for i in range(len(h)):
   print("The hidden height is %d Km for a distance of %.2f Km" % ((i+1, d0[i])
 ```
 
-## Online calcultors
+## Online calculators
 - [Advanced Earth Curvature Calculator](http://walter.bislins.ch/bloge/index.asp?page=Advanced+Earth+Curvature+Calculator)
 - [Earth Curve Calculator](https://dizzib.github.io/earth/curve-calc/?d0=140&h0=0.2&unit=metric)
 - [Make Panorama](https://www.udeuschle.de/panoramas/makepanoramas_en.htm)
