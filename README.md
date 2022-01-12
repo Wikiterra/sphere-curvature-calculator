@@ -80,7 +80,7 @@ print("An object at a distance of %.2f km above sea level is hidden %.2f km." % 
 
 from numpy import*
 
-# Data: R, h
+# Data: R, h1
 R = 6371 # Earth radius (R=6371 Km)
 h1 = array([1, 2, 3, 4, 5, 6, 7, 8, 9]) # Target hidden height
 
