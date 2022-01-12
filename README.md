@@ -18,6 +18,8 @@ To calculate the geometrical curvature of a aphere, there are various methods.
 	- C: center of the circle / sphere
 ![](Earth-calc.png)
 ![](Earth-calc-pythagoras.png)
+![](Earth-th-pythagoras-1.png)
+![](Earth-th-pythagoras-2.png)
 
 Representation of a sphere of radius (R=6371 Km) with distances and heights.
 ![[Sphere-curve-calc]](Sphere-curve-calc.png)
