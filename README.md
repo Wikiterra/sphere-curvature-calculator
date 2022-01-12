@@ -1,5 +1,5 @@
 # Sphere curvature calculator
-To calculate the geometrical curvature of a "spherical" Earth, there are various methods.
+To calculate the geometrical curvature of a aphere, there are various methods.
 
 ## Scheme
 - Data:
@@ -9,7 +9,7 @@ To calculate the geometrical curvature of a "spherical" Earth, there are various
 	- d2: distance from the geometrical horizon to the target object
 	- h0: observer height
 	- h1: hidden height
-	- R: radius of the spherical Earth (R=6371 Km)
+	- R: radius of the sphere
 - Points:
 	- A0: base of the observer
 	- A1: height of observer
@@ -21,6 +21,9 @@ To calculate the geometrical curvature of a "spherical" Earth, there are various
 
 Representation of a sphere of radius (R=6371 Km) with distances and heights.
 ![[Sphere-curve-calc]](Sphere-curve-calc.png)
+
+## Calculation methods
+There are three main methods to solve the geometrical problem. Here you can see the code to solve the math problem with python. You can compile online ([online-python.com](https://www.online-python.com/)) or local with python installed.
 
 ## 1. Pythagoras Theorem
 ```python
