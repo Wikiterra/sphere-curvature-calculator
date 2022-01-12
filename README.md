@@ -25,7 +25,7 @@ Representation of a sphere of radius (R=6371 Km) with distances and heights.
 ## Calculation methods
 There are three main methods to solve the geometrical problem. Here you can see the code to solve the math problem with python. You can compile online ([online-python.com](https://www.online-python.com/)) or local with python installed.
 
-## 1. Pythagoras Theorem
+### 1. Pythagoras Theorem
 ```python
 # Pythagoras with two heights, input (d0, h0, R) & output (h1)
 
@@ -50,7 +50,7 @@ print("The distance to the geometrical horizon is %.3f Km and the hidden height 
 
 [Graph, distance (Y axis) depends on the height (X axis)](https://www.desmos.com/calculator/cbdgduxedl)
 
-## 2. Perimeter of a circle
+### 2. Perimeter of a circle
 ```python
 # Angle of curvature of a given perimeter, at sea level.
 
@@ -73,7 +73,7 @@ h1 = R*(1-cos(alfa))
 print("An object at a distance of %.2f km above sea level is hidden %.2f km." % (d0, h1))
 ```
 
-## 3. Trigonometry
+### 3. Trigonometry
 ```python
 # Trigonometry at sea level
 
