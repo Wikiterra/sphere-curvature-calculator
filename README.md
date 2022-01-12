@@ -29,24 +29,24 @@ from numpy import*
 
 # Data: R, h_0, h_1, d_0, d_1
 ## R: radius ("Earth radius": 6371 Km)
-## h_0: eye height at sea level (in Km)
-## d_0: distance in straight line from the observer to the object (in Km)
-## h_1: hidden height by curvature (in Km)
-## d_1: distance to the geometrical horizon (in Km)
-## d_2 = d_0 - d1; d_2: distancia from the geometrical horizon to the object (in Km)
+## h0: eye height at sea level (in Km)
+## d0: distance in straight line from the observer to the object (in Km)
+## h1: hidden height by curvature (in Km)
+## d1: distance to the geometrical horizon (in Km)
+## d2 = d_0 - d1; d2: distancia from the geometrical horizon to the object (in Km)
 ## h_R: height along the distance. Example: if the observer and object are separated at the shore of a lake at 200 m of altitude, the height is the same along all the distance and is not at sea level. (Default h_R = 0, sea level)
 
 # User data
-h_R = 0
-R = 6371 + h_R
-h_0 = 0.001
-d_0 = 30
+hR = 0
+R = 6371 + hR
+h0 = 0.001
+d0 = 30
 
-# By Pythagoras: (R+h_0)^2=d_1^2+R^2 and (R+h_1)^2=d_2^2+R^2
-d_1 = sqrt(h_0**2+(2*R*h_0))
-h_1 = sqrt((d_0-d_1)**2+R**2)-R
+# By Pythagoras: (R+h0)^2=d1^2+R^2 and (R+h1)^2=d2^2+R^2
+d1 = sqrt(h_0**2+(2*R*h_0))
+h1 = sqrt((d0-d1)**2+R**2)-R
 
-print("The distance to the geometrical horizon is %.3f Km and the hidden height is %.3f Km" % (d_1, h_1))
+print("The distance to the geometrical horizon is %.3f Km and the hidden height is %.3f Km" % (d1, h1))
 ```
 
 [Desmos graph](https://www.desmos.com/calculator/cbdgduxedl)
@@ -69,9 +69,9 @@ alfa_km = 2*pi/C
 alfa = alfa_km*d
 
 # Calculus of the height h:
-h = R*(1-cos(alfa))
+h1 = R*(1-cos(alfa))
 
-print("An object at a distance of %.2f km above sea level is hidden %.2f km." % (d0, h))
+print("An object at a distance of %.2f km above sea level is hidden %.2f km." % (d0, h1))
 ```
 
 ## 3. Trigonometry
