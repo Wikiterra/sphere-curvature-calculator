@@ -1,6 +1,26 @@
 # Sphere curvature calculator
 To calculate the geometrical curvature of a "spherical" Earth, there are various methods.
 
+## Scheme
+- Data:
+	- α: angle variation
+	- d0: target distance (distance from the observer to the object)
+	- d1: distance to the geometrical horizon
+	- h0: observer height
+	- h1: object hidden height
+	- R: radius of the spherical Earth (R=6371 Km)
+- Points:
+	- A0: base of the observer
+	- A1: height of observer
+	- B0: base of hidden object
+	- B1: top of hidden object 
+	- C: center of the circle / sphere
+![](Earth-calc.png)
+![](Earth-calc-pythagoras.png)
+
+Representation of a sphere of radius (R=6371 Km) with distances and heights.
+![[Sphere-curve-calc]](Sphere-curve-calc.png)
+
 ## 1. Pythagoras Theorem
 ```python
 # Pythagoras with two heights, input (d0, h0, R) & output (h1)
@@ -40,7 +60,7 @@ from numpy import*
 ## Input data
 R = 6371
 C = 2*pi*R # C==12742*pi=40030.14 Km
-d = 113 # From observer in Km
+d0 = 113 # From observer in Km
 
 # Angle (in degrees) per unit, python defaults to radians
 alfa_km = 2*pi/C
@@ -51,7 +71,7 @@ alfa = alfa_km*d
 # Calculus of the height h:
 h = R*(1-cos(alfa))
 
-print("An object at a distance of %.2f km above sea level is hidden %.2f km." % (d, h))
+print("An object at a distance of %.2f km above sea level is hidden %.2f km." % (d0, h))
 ```
 
 ## 3. Trigonometry
@@ -61,37 +81,15 @@ print("An object at a distance of %.2f km above sea level is hidden %.2f km." % 
 from numpy import*
 
 # Data: R, h
-# Earth radius (R=6371 Km)
-R = 6371
-# Target hidden height
-h = array([1, 2, 3, 4, 5, 6, 7, 8, 9])
+R = 6371 # Earth radius (R=6371 Km)
+h1 = array([1, 2, 3, 4, 5, 6, 7, 8, 9]) # Target hidden height
 
-# Target distance : d
-
-# By basic trigonometry
-d1 = R*arccos(R/(R+h))
+# Target distance : d0
+d0 = R*arccos(R/(R+h1))
 
 # Print the result
 for i in range(len(h)):
-  print("The hidden height is %d Km for a distance of %.2f Km" % ((i+1, d1[i])
+  print("The hidden height is %d Km for a distance of %.2f Km" % ((i+1, d0[i])
 ```
-
-# Spheric scheme
-- Data:
-	- α: angle variation
-	- d: distance AB
-	- h: observer's hidden DB height
-	- R: radius of the spherical Earth (R=6371 Km)
-- Points:
-	- A0: base of the observer
-	- A1: height of observer
-	- B0: base of hidden object
-	- B1: top of hidden object 
-	- C: center of the circle / sphere
-![](Earth-calc.png)
-![](Earth-calc-pythagoras.png)
-
-Representation of a sphere (R=6371 Km) with distances and heights.
-![[Sphere-curve-calc]](Sphere-curve-calc.png)
 
 
