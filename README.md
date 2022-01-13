@@ -1,5 +1,5 @@
 # Sphere curvature calculator
-To calculate the geometrical curvature of a aphere, there are various methods.
+To calculate the geometrical curvature of a sphere, there are various methods.
 
 ## Scheme
 - Data:
