@@ -60,19 +60,19 @@ from numpy import*
 
 ## Input data (same units, e.g. Km)
 R = 6371
-C = 2*pi*R # C==12742*pi=40030.14 Km
-d0 = 113 # From observer in Km
+C = 2*pi*R # C=12742*pi=40030.14 Km
+d0 = 30
 
-# Angle (in degrees) per unit, python defaults to radians
+# Angle (in degrees) per unit, convert python defaults radians to degrees
 alfa_km = 2*pi/C
 
-# Angle for given distance (d):
-alfa = alfa_km*d
+# Angle for given distance (d0):
+alfa = alfa_km*d0
 
 # Calculus of the hidden height h1:
 h1 = R*(1-cos(alfa))
 
-print("An object at a distance of %.2f km above sea level is hidden %.2f km." % (d0, h1))
+print("At a distance of %.2f km at sea level the hidden height by curvature is %.2f km." % (d0, h1))
 ```
 
 ### 3. Trigonometry
@@ -82,15 +82,15 @@ print("An object at a distance of %.2f km above sea level is hidden %.2f km." % 
 from numpy import*
 
 # Data: R, h1 (same units, e.g. Km)
-R = 6371 # Earth radius (R=6371 Km)
-h1 = array([1, 2, 3, 4, 5, 6, 7, 8, 9]) # Target hidden height
+R = 6371
+h1 = array([0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9]) # Target hidden height
 
 # Target distance : d0
 d0 = R*arccos(R/(R+h1))
 
 # Print the result
-for i in range(len(h)):
-  print("The hidden height is %d Km for a distance of %.2f Km" % ((i+1, d0[i])
+for i in range(len(h1)):
+  print("The hidden height is %.1f Km for a distance of %.2f Km" % ((h1[i], d0[i])))
 ```
 
 ## Online calculators
