@@ -8,7 +8,7 @@ To calculate the geometrical curvature of a sphere, there are various methods.
 	- d1: distance to the geometrical horizon
 	- d2: distance from the geometrical horizon to the target object
 	- h0: observer height
-	- h1: hidden height
+	- h1: target hidden height
 	- R: radius of the sphere
 - Points:
 	- A0: base of the observer
