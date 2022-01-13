@@ -14,7 +14,8 @@ To calculate the geometrical curvature of a sphere, there are various methods.
 	- A0: base of the observer
 	- A1: top of the observer
 	- B0: base of hidden object
-	- B1: top of hidden object 
+	- B1: top of hidden object
+	- G0: curvature shear, geometric limit
 	- C: center of the circle / sphere
 ![](Earth-calc.png)
 ![](Earth-pythagorean-th-1.png)
