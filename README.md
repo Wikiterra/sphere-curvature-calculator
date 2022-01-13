@@ -12,7 +12,7 @@ To calculate the geometrical curvature of a sphere, there are various methods.
 	- R: radius of the sphere
 - Points:
 	- A0: base of the observer
-	- A1: top of observer
+	- A1: top of the observer
 	- B0: base of hidden object
 	- B1: top of hidden object 
 	- C: center of the circle / sphere
