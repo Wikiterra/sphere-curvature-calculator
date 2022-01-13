@@ -2,13 +2,16 @@
 To calculate the geometrical curvature of a sphere, there are various methods.
 
 ## Scheme
+- Angles:
+	- α: angle variation A0-B0
+	- α: angle variation A0-G0
+	- α: angle variation G0-B0
 - Data:
-	- α: angle variation
-	- d: target distance (distance from the observer to the object)
-	- d1: distance to the geometrical horizon
-	- d2: distance from the geometrical horizon to the target object
-	- h0: observer height
-	- h1: target hidden height
+	- d: target distance A1-B1
+	- d1: distance to the geometrical horizon A1-G0
+	- d2: distance from the geometrical horizon to the target object, G0-B1
+	- h0: observer height, A0-A1
+	- h1: target hidden height, B0-B1
 	- R: radius of the sphere
 - Points:
 	- A0: base of the observer
