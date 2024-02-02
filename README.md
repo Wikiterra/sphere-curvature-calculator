@@ -20,9 +20,9 @@ To calculate the geometrical curvature of a sphere, there are various methods.
 	- B1: top of hidden object
 	- G0: curvature shear, geometric limit
 	- C: center of the circle / sphere
-![](Earth-calc.png)
-![](Earth-pythagorean-th-1.png)
-![](Earth-pythagorean-th-2.png)
+![](img/earth-calc.png)
+![](img/earth-pythagorean-th-1.png)
+![](img/earth-pythagorean-th-2.png)
 
 Representation of a sphere of radius (R=6371 Km) with distances and heights.
 ![[Sphere-curve-calc]](Sphere-curve-calc.png)
